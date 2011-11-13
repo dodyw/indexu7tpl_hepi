@@ -1,0 +1,63 @@
+/* 
+CUSTOM STYLESHEET
+-----------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+/*fix white table*/
+table {
+  background:none;
+}
+
+.listing_detail_sheet {
+  background:#fff;
+}
+
+/*fix tag cloud*/
+.widget ul#popular_tags li {
+  background-image:none;
+  padding:0;
+}
+
+/*fix breadcrumb*/
+.breadcrumb .trail-end {
+  /*margin:0;*/
+  /*padding:0;*/
+}
+
+.breadcrumb .trail-end a {
+  /*float:none;*/
+  margin:0;
+  padding:0;
+}
+
+/*fix widget*/
+
+.widget_shopping_cart h3 {
+  background-image:none;
+}
+
+/*form*/
+
+form table, form tr, form td {
+  border:none;
+}
+form td {
+  /*padding:2px 0px;*/
+}
+
+.required {
+  color:#555;
+}
+
+.select {
+  border-color: #CCCCCC #EFEFEF #EFEFEF #CCCCCC;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 12px;
+  padding: 3px 6px;
+}
